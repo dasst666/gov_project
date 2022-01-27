@@ -1,0 +1,201 @@
+{
+   "egov":{
+      "e_035":{
+         "date":"2022-01-20",
+         "doc_type":"e_035",
+         "fio":"АКЖАНОВ ЕРЛАН СУЛТАНОВИЧ",
+         "iin":"840330300019",
+         "data":{
+            "juridical_count":0,
+            "linked_juridicals":{
+               
+            }
+         }
+      }
+   },
+   "cached_tasks":{
+      "get_pseudo":[
+         
+      ],
+      "get_address":[
+         
+      ],
+      "get_reg":[
+         
+      ],
+      "get_bank":[
+         
+      ],
+      "get_terr":[
+         
+      ]
+   },
+   "browser_tasks":{
+      "kgd_culs_iin_paragraph":{
+         "kgd_culs":{
+            "nameRu":"АКЖАНОВ ЕРЛАН СУЛТАНОВИЧ",
+            "nameKk":"АКЖАНОВ ЕРЛАН СУЛТАНОВИЧ",
+            "iinBin":"840330300019",
+            "totalArrear":0,
+            "totalTaxArrear":0,
+            "pensionContributionArrear":0,
+            "socialContributionArrear":0,
+            "socialHealthInsuranceArrear":0,
+            "appealledAmount":null,
+            "modifiedTermsAmount":null,
+            "rehabilitaionProcedureAmount":null,
+            "sendTime":1642658435000,
+            "taxOrgInfo":[
+               {
+                  "nameRu":"Республиканское государственное учреждение \"Управление государственных доходов по городу Аксу Департамента государственных доходов по Павлодарской области Комитета государственных доходов Министерства финансов Республики Казахстан\"",
+                  "nameKk":"\"Қазақстан Республикасы Қаржы министрлігінің Мемлекеттік кірістер комитеті Павлодар облысы бойынша Мемлекеттік кірістер департаментінің Ақсу қаласы бойынша Мемлекеттік кірістер басқармасы\" республикалық мемлекеттік мекемесі",
+                  "charCode":"451401",
+                  "reportAcrualDate":1642615200000,
+                  "totalArrear":0,
+                  "totalTaxArrear":0,
+                  "pensionContributionArrear":0,
+                  "socialContributionArrear":0,
+                  "socialHealthInsuranceArrear":0,
+                  "appealledAmount":null,
+                  "modifiedTermsAmount":null,
+                  "rehabilitaionProcedureAmount":null,
+                  "taxPayerInfo":[
+                     {
+                        "nameRu":"АКЖАНОВ ЕРЛАН СУЛТАНОВИЧ",
+                        "nameKk":"АКЖАНОВ ЕРЛАН СУЛТАНОВИЧ",
+                        "iinBin":"840330300019",
+                        "totalArrear":0,
+                        "bccArrearsInfo":[
+                           {
+                              "bcc":"901101",
+                              "bccNameRu":"Поступления в пенсионный фонд 901101",
+                              "bccNameKz":"Міндетті зейнетақы жарналары",
+                              "taxArrear":0,
+                              "poenaArrear":0,
+                              "percentArrear":0,
+                              "fineArrear":0,
+                              "totalArrear":0
+                           },
+                           {
+                              "bcc":"104102",
+                              "bccNameRu":"Hалог на имущество физических лиц",
+                              "bccNameKz":"Жеке тұлғалардың мүлкiне салынатын салық",
+                              "taxArrear":0,
+                              "poenaArrear":0,
+                              "percentArrear":0,
+                              "fineArrear":0,
+                              "totalArrear":0
+                           },
+                           {
+                              "bcc":"904101",
+                              "bccNameRu":"Поступления отчислений и взносов на обязательное социальное медицинское страхование",
+                              "bccNameKz":"Міндетті әлеуметтік медициналық сақтандыру аударымдар және  жарналарының түсімдері",
+                              "taxArrear":0,
+                              "poenaArrear":0,
+                              "percentArrear":0,
+                              "fineArrear":0,
+                              "totalArrear":0
+                           },
+                           {
+                              "bcc":"104302",
+                              "bccNameRu":"Земельный налог",
+                              "bccNameKz":"Елдi мекендер жерлерiне алынатын жер салығы",
+                              "taxArrear":0,
+                              "poenaArrear":0,
+                              "percentArrear":0,
+                              "fineArrear":0,
+                              "totalArrear":0
+                           },
+                           {
+                              "bcc":"902101",
+                              "bccNameRu":"Поступления социальных отчислений",
+                              "bccNameKz":"Әлеуметтiк аударымдар",
+                              "taxArrear":0,
+                              "poenaArrear":0,
+                              "percentArrear":0,
+                              "fineArrear":0,
+                              "totalArrear":0
+                           },
+                           {
+                              "bcc":"104402",
+                              "bccNameRu":"Hалог на транспортные средства с физических лиц",
+                              "bccNameKz":"Жеке тұлғалардың көлiк құралдарына салынатын салық",
+                              "taxArrear":0,
+                              "poenaArrear":0,
+                              "percentArrear":0,
+                              "fineArrear":0,
+                              "totalArrear":0
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "paragraph":true
+      },
+      "iin_crim":{
+         
+      },
+      "iin_debt":{
+         
+      },
+      "iin_missing":{
+         
+      },
+      "taxpayer_search_iin":{
+         "kgd_taxpayer_search":{
+            "№":"1",
+            "Наименование":"АКЖАНОВ ЕРЛАН СУЛТАНОВИЧ",
+            "Тип":"ИП",
+            "РНН":"451410480009",
+            "ИИН/БИН":"840330300019",
+            "Дата регистрации":"30.10.2019",
+            "Дата снятия с учёта":"02.03.2021",
+            "Причина снятия с учёта":"",
+            "Периоды приостановления деятельности":""
+         }
+      },
+      "taxpayer_risk":{
+      }
+   },
+   "api_tasks":{
+      "adilet_opendata":{
+         "soap:Envelope":{
+            "@xmlns:soap":"http://schemas.xmlsoap.org/soap/envelope/",
+            "SOAP-ENV:Header":{
+               "@xmlns:SOAP-ENV":"http://schemas.xmlsoap.org/soap/envelope/"
+            },
+            "soap:Body":{
+               "ns1:requestResponse":{
+                  "@xmlns:ns1":"http://soap.opendata.egov.nitec.kz/",
+                  "response":{
+                     "responseInfo":{
+                        "messageId":"cfd45a73-00c8-442e-a593-e8b65588237e",
+                        "correlationId":"2464f684-d085-45ac-b63e-9bc951696b39",
+                        "responseDate":"2022-01-20T12:07:53.639+06:00",
+                        "status":{
+                           "code":"SCSE001",
+                           "message":"При обработке сообщения произошла бизнес ошибка. Не удалось найти информацию по входным данным."
+                        }
+                     },
+                     "responseData":{
+                        "data":{
+                           "@xmlns:tns":"http://bip.bee.kz/SyncChannel/v10/Types"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "get_goszakup":{
+      },
+      "samruk_kaz":{
+      }
+   },
+   "input":{
+      "iin":"840330300019",
+      "fullsearch":true
+   }
+}

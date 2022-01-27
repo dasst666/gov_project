@@ -1,0 +1,162 @@
+{
+   "egov":{
+      "e_035":{
+         "date":"2022-01-20",
+         "doc_type":"e_035",
+         "fio":"МОТОРНЫЙ АЛЕКСАНДР ДМИТРИЕВИЧ",
+         "iin":"671017350288",
+         "data":{
+            "juridical_count":1,
+            "linked_juridicals":[
+               {
+                  "company":"Товарищество с ограниченной ответственностью \"Кирпичный завод № 1 имени 15 - летия независимости Республики Казахстан\"",
+                  "bin":"070140004325",
+                  "reg_org":"Управление регистрации прав на недвижимое имущество и юридических лиц филиала некоммерческого акционерного общества «Государственная корпорация «Правительство для граждан» по городу Нур-Султан",
+                  "last_reg_date":"12 января 2018 года",
+                  "first_reg_date":"22 января 2007 года",
+                  "dir":"Руководитель, назначенный (избранный) уполномоченным органом юридического лица 29 декабря 2017 годаМОТОРНЫЙ АЛЕКСАНДР ДМИТРИЕВИЧ",
+                  "location":"Казахстан, город Нур-Султан, район Алматы, улица 101, дом 27/2, почтовый индекс 010000"
+               }
+            ]
+         }
+      }
+   },
+   "cached_tasks":{
+      "get_pseudo":[
+         
+      ],
+      "get_address":[
+         
+      ],
+      "get_reg":[
+         
+      ],
+      "get_bank":[
+         
+      ],
+      "get_terr":[
+         
+      ]
+   },
+   "browser_tasks":{
+      "kgd_culs_iin_paragraph":{
+         "kgd_culs":{
+            "nameRu":"МОТОРНЫЙ АЛЕКСАНДР ДМИТРИЕВИЧ",
+            "nameKk":"МОТОРНЫЙ АЛЕКСАНДР ДМИТРИЕВИЧ",
+            "iinBin":"671017350288",
+            "totalArrear":0,
+            "totalTaxArrear":0,
+            "pensionContributionArrear":0,
+            "socialContributionArrear":0,
+            "socialHealthInsuranceArrear":0,
+            "appealledAmount":null,
+            "modifiedTermsAmount":null,
+            "rehabilitaionProcedureAmount":null,
+            "sendTime":1642657705000,
+            "taxOrgInfo":[
+               {
+                  "nameRu":"республиканское государственное учреждение \"Управление государственных доходов по городу Темиртау Департамента государственных доходов по Карагандинской области Комитета государственных доходов Министерства финансов Республики Казахстан\"",
+                  "nameKk":"\"Қазақстан Республикасы Қаржы министрлігінің Мемлекеттік кірістер комитеті Қарағанды облысы бойынша Мемлекеттік кірістер департаментінің Теміртау қаласы бойынша Мемлекеттік кірістер басқармасы\" республикалық мемлекеттік мекемесі",
+                  "charCode":"301201",
+                  "reportAcrualDate":1642615200000,
+                  "totalArrear":0,
+                  "totalTaxArrear":0,
+                  "pensionContributionArrear":0,
+                  "socialContributionArrear":0,
+                  "socialHealthInsuranceArrear":0,
+                  "appealledAmount":null,
+                  "modifiedTermsAmount":null,
+                  "rehabilitaionProcedureAmount":null,
+                  "taxPayerInfo":[
+                     {
+                        "nameRu":"МОТОРНЫЙ АЛЕКСАНДР ДМИТРИЕВИЧ",
+                        "nameKk":"МОТОРНЫЙ АЛЕКСАНДР ДМИТРИЕВИЧ",
+                        "iinBin":"671017350288",
+                        "totalArrear":0,
+                        "bccArrearsInfo":[
+                           {
+                              "bcc":"901101",
+                              "bccNameRu":"Поступления в пенсионный фонд 901101",
+                              "bccNameKz":"Міндетті зейнетақы жарналары",
+                              "taxArrear":0,
+                              "poenaArrear":0,
+                              "percentArrear":0,
+                              "fineArrear":0,
+                              "totalArrear":0
+                           },
+                           {
+                              "bcc":"104402",
+                              "bccNameRu":"Hалог на транспортные средства с физических лиц",
+                              "bccNameKz":"Жеке тұлғалардың көлiк құралдарына салынатын салық",
+                              "taxArrear":0,
+                              "poenaArrear":0,
+                              "percentArrear":0,
+                              "fineArrear":0,
+                              "totalArrear":0
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "paragraph":true
+      },
+      "iin_crim":{
+         
+      },
+      "iin_debt":{
+         
+      },
+      "iin_missing":{
+         
+      },
+      "taxpayer_search_iin":{
+         
+      },
+      "taxpayer_risk":{
+         
+      }
+   },
+   "api_tasks":{
+      "adilet_opendata":{
+         "soap:Envelope":{
+            "@xmlns:soap":"http://schemas.xmlsoap.org/soap/envelope/",
+            "SOAP-ENV:Header":{
+               "@xmlns:SOAP-ENV":"http://schemas.xmlsoap.org/soap/envelope/"
+            },
+            "soap:Body":{
+               "ns1:requestResponse":{
+                  "@xmlns:ns1":"http://soap.opendata.egov.nitec.kz/",
+                  "response":{
+                     "responseInfo":{
+                        "messageId":"8ba1cad9-5cee-4120-b0cf-6053f6461046",
+                        "correlationId":"2464f684-d085-45ac-b63e-9bc951696b39",
+                        "responseDate":"2022-01-18T14:09:38.658+06:00",
+                        "status":{
+                           "code":"SCSE001",
+                           "message":"При обработке сообщения произошла бизнес ошибка. Не удалось найти информацию по входным данным."
+                        }
+                     },
+                     "responseData":{
+                        "data":{
+                           "@xmlns:tns":"http://bip.bee.kz/SyncChannel/v10/Types"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "get_goszakup":{
+         
+      },
+      "samruk_kaz":{
+
+      }
+   },
+   "input":{
+      "iin":"671017350288",
+      "fullsearch":true
+   }
+}

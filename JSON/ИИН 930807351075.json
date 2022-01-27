@@ -1,0 +1,140 @@
+{
+   "egov":{
+      "e_035":{
+         "error":"Запрос отвергнут государственным органом"
+      }
+   },
+   "cached_tasks":{
+      "get_pseudo":[
+         
+      ],
+      "get_address":[
+         
+      ],
+      "get_reg":[
+         
+      ],
+      "get_bank":[
+         
+      ],
+      "get_terr":[
+         {
+            "tid":1,
+            "num":"1",
+            "lname":"Абдибеков",
+            "fname":"Асет",
+            "mname":"Мейржанович",
+            "iin":"930807351075",
+            "note":null,
+            "correction":null
+         }
+      ]
+   },
+   "browser_tasks":{
+      "kgd_culs_iin_paragraph":{
+         "kgd_culs":{
+            "nameRu":"АБДИБЕКОВ АСЕТ МЕЙРЖАНОВИЧ",
+            "nameKk":"АБДИБЕКОВ АСЕТ МЕЙРЖАНОВИЧ",
+            "iinBin":"930807351075",
+            "totalArrear":0,
+            "totalTaxArrear":0,
+            "pensionContributionArrear":0,
+            "socialContributionArrear":0,
+            "socialHealthInsuranceArrear":0,
+            "appealledAmount":null,
+            "modifiedTermsAmount":null,
+            "rehabilitaionProcedureAmount":null,
+            "sendTime":1642663174000,
+            "taxOrgInfo":[
+               {
+                  "nameRu":"Республиканское государственное учреждение \"Управление государственных доходов по городу Сатпаев Департамента государственных доходов по Карагандинской области Комитета государственных доходов Министерства финансов Республики Казахстан\"",
+                  "nameKk":"\"Қазақстан Республикасы Қаржы министрлігінің Мемлекеттік кірістер комитеті Қарағанды облысы бойынша Мемлекеттік кірістер департаментінің Сәтбаев қаласы бойынша Мемлекеттік кірістер басқармасы\" Республикалық мемлекеттік мекемесі",
+                  "charCode":"303001",
+                  "reportAcrualDate":1642615200000,
+                  "totalArrear":0,
+                  "totalTaxArrear":0,
+                  "pensionContributionArrear":0,
+                  "socialContributionArrear":0,
+                  "socialHealthInsuranceArrear":0,
+                  "appealledAmount":null,
+                  "modifiedTermsAmount":null,
+                  "rehabilitaionProcedureAmount":null,
+                  "taxPayerInfo":[
+                     
+                  ]
+               }
+            ]
+         },
+         "paragraph":false
+      },
+      "iin_crim":{
+         "Фамилия:":"АБДИБЕКОВ",
+         "Имя:":"АСЕТ",
+         "Отчество:":"МЕЙРЖАНОВИЧ",
+         "Дата рождения:":"07.08.1993",
+         "Пол:":"Мужской",
+         "Национальность:":"КАЗАХ",
+         "Документ:":"УДОСТОВЕРЕНИЕ ГРАЖДАНИНА РК",
+         "Номер:":"033807246",
+         "Кем выдан:":"ОРГАНЫ ВНУТРЕННИХ ДЕЛ (МВД)",
+         "Дата выдачи:":"09.08.2012",
+         "Орган, ведущий розыск:":"ОВД г.Сатпаев Карагандинской области",
+         "Телефон органа ведущего розыск:":"102",
+         "Телефон приемной:":"34483",
+         "Причина розыска:":"Разыскиваемое лицо скрылось от следствия"
+      },
+      "iin_debt":{
+         
+      },
+      "iin_missing":{
+         
+      },
+      "taxpayer_search_iin":{
+         
+      },
+      "taxpayer_risk":{
+         
+      }
+   },
+   "api_tasks":{
+      "adilet_opendata":{
+         "soap:Envelope":{
+            "@xmlns:soap":"http://schemas.xmlsoap.org/soap/envelope/",
+            "SOAP-ENV:Header":{
+               "@xmlns:SOAP-ENV":"http://schemas.xmlsoap.org/soap/envelope/"
+            },
+            "soap:Body":{
+               "ns1:requestResponse":{
+                  "@xmlns:ns1":"http://soap.opendata.egov.nitec.kz/",
+                  "response":{
+                     "responseInfo":{
+                        "messageId":"1f3656bc-a683-40c7-adcf-8db2c8b2354a",
+                        "correlationId":"2464f684-d085-45ac-b63e-9bc951696b39",
+                        "responseDate":"2022-01-20T13:19:23.625+06:00",
+                        "status":{
+                           "code":"SCSE001",
+                           "message":"При обработке сообщения произошла бизнес ошибка. Не удалось найти информацию по входным данным."
+                        }
+                     },
+                     "responseData":{
+                        "data":{
+                           "@xmlns:tns":"http://bip.bee.kz/SyncChannel/v10/Types"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "get_goszakup":[
+         
+      ],
+      "samruk_kaz":[
+         
+      ]
+   },
+   "input":{
+      "iin":"930807351075",
+      "fullsearch":true
+   }
+}
