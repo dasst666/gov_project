@@ -29,10 +29,13 @@ async def get_json(option: str, iin_bin: str):
         option_ru = 'ИИН' 
     else: 
         option_ru = 'БИН' 
+    try:  
+        with open(f"JSON/{option_ru} {iin_bin}.json") as f: 
+            data = json.load(f) 
+        return JSONResponse(status_code=200, content = data)
+    except Exception:
+        return JSONResponse(status_code=404, content = {'error':'Data not found', 'success': False})
      
-    with open(f"JSON/{option_ru} {iin_bin}.json") as f: 
-        data = json.load(f) 
-    return JSONResponse(status_code=200, content = data) 
 
 
 if __name__ == "__main__":
