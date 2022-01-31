@@ -66,6 +66,9 @@ butt.onclick = function() {
 
         
         
-    })
+    }).catch(
+        console.log('404'),
+        document.querySelector("#post-items-container").innerText = "Данные не найдены"
+    )
     
 };
